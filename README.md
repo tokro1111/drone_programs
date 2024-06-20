@@ -24,7 +24,10 @@ Telloの小型ドローン（詳細は今後追記予定）
 pip install -r requirements.txt
 ```
 
-### 5.2 ドローン操作スクリプトの実行
+### 5.2 .envの作成
+`.env_example`を参考に、.envファイルを作成してください。
+
+### 5.3 ドローン操作スクリプトの実行
 ```
 python drone_operator.py
 ```
